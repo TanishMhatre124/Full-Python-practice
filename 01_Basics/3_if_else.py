@@ -49,3 +49,102 @@ if height >=80:
         print("u can take a ride....")
 else:
     print("you can't ride roller coster !") 
+
+#example 
+weight = 85
+height = 1.85
+
+bmi = weight / (height ** 2)
+if bmi<18.5:
+    print("underweight")
+elif bmi<25:
+        print("normal weight")
+else:
+        print("overweight")
+
+
+#multiple if statement
+ 
+print("welcome to roller coster ride!")
+height=(int(input("what is your height?" )))
+bill=0
+
+if height>=120:
+    print(" you can ride the roller coaster")
+
+    age=(int(input("what is ur age?")))
+    if age<=12:
+        bill=5
+        print("child ticket are 5$")
+    elif age<=18:
+        bill=12
+        print("youth ticket are 12$")
+    else:
+        bill=20
+        print("adult ticket are 20$")
+
+    want_photos=input("do u want photos? type'y' for yes and 'n' for no: ")
+    if want_photos=="y":
+        bill+=3
+    print(f"ur final bill is {bill}")
+else:
+    print("u cant ride")
+ 
+###example of pizza order using if,elif, multiple if....
+
+print("welcome to the pizza hut!")
+size=input("what size do u want ?type 's' for small  'm'for medium  'l'for large :")
+pepperoni=input("do u want pepperoni on pizza? y or n :")
+extra_cheese=input("do u want cheese on pizza? y or n :")
+#size
+bill=0
+if size=="s":
+    bill+=15
+elif size=="m":
+    bill+=20
+elif  size=="l":
+    bill+=25
+else:
+    print("u type the wrong input...")
+
+#pepperoni
+if pepperoni=="y":
+    if size=="s":
+        bill+=2
+    else:
+        bill+=3
+
+#cheese
+if extra_cheese=="y":
+    bill+=1
+
+print(f"your final boll is{bill} :")
+
+###logical operator
+print("welcome to roller coster ride!")
+height=(int(input("what is your height?" )))
+bill=0
+
+if height>=120:
+    print(" you can ride the roller coaster")
+
+    age=(int(input("what is ur age?")))
+    if age<=12:
+        bill=5
+        print("child ticket are 5$")
+    elif age<=18:
+        bill=12
+        print("youth ticket are 12$")
+    elif age>=45 and age<=55:   ####logic operator 2 condition     
+        print("have a free ride")
+    else:
+        bill=20
+        print("adult ticket are 20$")
+
+    want_photos=input("do u want photos? type'y' for yes and 'n' for no: ")
+    if want_photos=="y":
+        bill+=3
+    print(f"ur final bill is {bill}")
+else:
+    print("u cant ride")
+ 
