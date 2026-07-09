@@ -24,3 +24,14 @@ def greet_with_name(name):
     print(f"hello {name}")
     print(f"what are u doing {name}")
 greet_with_name("tanish")
+
+#functions with more than one input 
+def greet_with(name,location):
+    print(f"what is your name? {name}")
+    print(f"where do you live? {location}")
+greet_with("tanish","mumbai")    #positional argument 
+
+def greet_with(name,location):
+    print(f"what is your name? {name}")
+    print(f"where do you live? {location}")
+greet_with(name="tanish",location="mumbai")     #keyword argument
