@@ -1,0 +1,14 @@
+#functions 
+#print
+print("hello")
+
+#length
+len_char=len("hello")
+print(len_char)
+
+#define the function
+def my_function():
+    print("hello")
+    print("world!")
+my_function()
+ 
