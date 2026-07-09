@@ -12,3 +12,15 @@ def my_function():
     print("world!")
 my_function()
  
+#functions with inputs
+def great():
+    print("hello")
+    print("how is the weather")
+    print("how do u do?")
+great()
+
+#functions that allows inputs 
+def greet_with_name(name):
+    print(f"hello {name}")
+    print(f"what are u doing {name}")
+greet_with_name("tanish")
