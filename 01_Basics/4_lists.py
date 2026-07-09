@@ -57,7 +57,7 @@ print(dirty_dozen)
 
 
 
-#example
+#miniproject
 #rock paper scissors game 
 
 import random
@@ -110,3 +110,6 @@ elif users_choice>computer_choice:
     print(" u win")
 elif computer_choice==users_choice:
     print("its a draw!")
+
+
+
