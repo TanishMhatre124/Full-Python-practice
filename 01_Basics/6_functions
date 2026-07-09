@@ -35,3 +35,52 @@ def greet_with(name,location):
     print(f"what is your name? {name}")
     print(f"where do you live? {location}")
 greet_with(name="tanish",location="mumbai")     #keyword argument
+
+
+"""
+--------------------------------------------------------------------------------------------------------------------------------
+Problem: Love Calculator
+
+Write a function `calculate_love_score(name1, name2)` that calculates a love score
+between two names.
+
+Requirements:
+- Combine both names and convert them to lowercase.
+- Count the occurrences of the letters in "TRUE" (T, R, U, E) and add them to get the TRUE score.
+- Count the occurrences of the letters in "LOVE" (L, O, V, E) and add them to get the LOVE score.
+- Combine the TRUE and LOVE scores to form a two-digit number.
+- Print the final love score.
+
+Example:
+Input:
+calculate_love_score("Angela Yu", "Jack Bauer")
+
+Output:
+53
+
+#solution of problem
+
+"""
+#solution of problem
+def calculate_love_score(name1, name2):
+    combined_names = (name1 + name2).lower()
+
+    true_score = (
+        combined_names.count("t") +
+        combined_names.count("r") +
+        combined_names.count("u") +
+        combined_names.count("e")
+    )
+
+    love_score = (
+        combined_names.count("l") +
+        combined_names.count("o") +
+        combined_names.count("v") +
+        combined_names.count("e")
+    )
+
+    print(f"{true_score}{love_score}")
+
+
+# Call the function
+calculate_love_score("Kanye West", "Kim Kardashian")
