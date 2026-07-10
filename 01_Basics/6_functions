@@ -79,7 +79,7 @@ def calculate_love_score(name1, name2):
         combined_names.count("e")
     )
 
-    print(f"{true_score}{love_score}")
+    print(f"score is={true_score}{love_score}")
 
 
 # Call the function
