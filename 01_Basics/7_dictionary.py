@@ -65,7 +65,7 @@ travel_log={
 }
 print(travel_log["france"])
 
-
+  
 #nested 
 nested_list=["a","b",["c","d"]] 
-print(nested_list[2])
+print(nested_list[2])    

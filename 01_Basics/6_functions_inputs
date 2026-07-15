@@ -80,7 +80,5 @@ def calculate_love_score(name1, name2):
     )
 
     print(f"score is={true_score}{love_score}")
-
-
 # Call the function
 calculate_love_score("Kanye West", "Kim Kardashian")
