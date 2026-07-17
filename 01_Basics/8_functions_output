@@ -18,7 +18,7 @@ def function_1(text):
 def function_2(text):
     return text.title()
 
-output= function_1(function_2("hello"))
+output= function_1(function_2("hello")) 
 print(output)
 
 #mutiple return statement
