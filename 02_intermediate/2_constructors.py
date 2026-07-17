@@ -20,6 +20,7 @@ print(s1.name)
 #-------------------------------------------------------------------------
 
 class student:
+    college_name="st.john college"
     def __init__(self,name,marks):   # parameter constructor
         self.name=name
         self.marks=marks
@@ -30,3 +31,17 @@ print(s1.name,s1.marks)
 
 s2=student("jash",90)
 print(s2.name,s2.marks)
+
+print(student.college_name)
+
+
+
+
+
+
+
+
+
+
+
+
