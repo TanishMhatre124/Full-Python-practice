@@ -3,7 +3,8 @@
 class student:
     college_name="st.john college"
     def __init__(self,name,marks):   # parameter constructor
-        self.name=name
+        self.name=name                  #name → Instance variable (or instance attribute)
+                                        #= name → Parameter
         self.marks=marks
         print("what is class?")
 
@@ -43,5 +44,5 @@ class student:
     @staticmethod
     def college():
         print("abc college ")
-        
+
 student.college()
