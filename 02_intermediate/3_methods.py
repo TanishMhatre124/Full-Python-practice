@@ -33,3 +33,15 @@ class student:
 s1=student("rahul",[100,90,60])
 print(s1.name)
 s1.get_avg()
+
+
+
+#---------------------------------------------------------------
+#static method
+
+class student:
+    @staticmethod
+    def college():
+        print("abc college ")
+        
+student.college()
