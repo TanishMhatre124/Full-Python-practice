@@ -26,14 +26,29 @@ class accounts:
         print("Rs",amount,"was credited ")
         print("total balance =", self.get_balance())
 
-
     def get_balance(self):
         return self.balance   
-  
     
 acc1=accounts(50000,12345)
 print(acc1.balance)
 print(acc1.account)
-
 acc1.debit(1000)
 acc1.credit(500)
+
+
+
+#del keyword 
+
+class student:
+    def __init__(self,name):
+        self.name=name
+
+s1=student("tanish")
+print(s1.name)
+
+del s1.name      #del keyword 
+print(s1.name)
+
+
+#private(like) attributes and method 
+
