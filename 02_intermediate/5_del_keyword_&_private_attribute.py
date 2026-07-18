@@ -18,7 +18,7 @@ print(s1.name)
 class account:
     def __init__(self,acco_no,acc_pass):
         self.account_number=acco_no
-        self.__account_pass=acc_pass
+        self.__account_pass=acc_pass          #private  attribute __abc
     
     def reset_pass(self):
         print(self.__account_pass)
